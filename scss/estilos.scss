@@ -1,0 +1,338 @@
+$base-font-size: 14px;
+$font-primaria: 'Quicksand', sans-serif;
+$font-secundaria: 'Raleway', sans-serif;
+$font-color: #2e2e2e;
+$color-titulos: #7297a6;
+$ancho: 100%;
+$alto: auto;
+$table-cell-padding: .75rem !default;
+$table-color: #747474 !default;
+$table-bg: null !default;
+$table-border-width: 1px !default;
+$table-border-color: #cebaaf !default;
+$spacer: 1rem !default;
+$card-spacer-y:                     .75rem !default;
+$card-spacer-x:                     1.25rem !default;
+$card-color:                        null !default;
+/* GENERAL */
+body{
+	font-size: $base-font-size;
+	background-image: linear-gradient(to top, #dabaae, #fff8f3, #ffffff);
+}
+ul{
+	list-style-type: circle;
+	list-style-position: outside;
+	color: #bb968b;
+	margin-top: 5px;
+	padding-left: -40px;
+
+	li{
+		margin: 5px;
+		font-size: 15px;
+	}
+}
+.header__foto--tamaño {
+  width: $ancho;
+  height: $alto;
+}
+a .nav__links--animacion{
+	display: inline-block;
+	transition: 2s;
+}
+.nav__links--animacion:hover{
+	transform: scale(1.2);
+	color: #2e2e2e;
+}
+.nav__lucia--color{
+	@extend.nav__links--animacion;
+	color: #bb968b;
+}
+.main__titulo--estilo{
+	font-family: $font-primaria;
+	color: $color-titulos;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.inicio__titulo--color{
+	font-family: $font-primaria;
+	color: #bb968b;
+	font-size: 19px;
+	text-align: center;
+	margin: 10px;
+	margin-top: 20px;
+	padding: 5px;
+}
+.secciones__titulos--estilo{
+	font-family: $font-secundaria;
+	color: #204959;
+	font-size: 19px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+}
+.main__h4--fondo{
+  font-family: $font-secundaria;
+  color: #747474;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.main__h4--estilo{
+	@extend .main__h4--fondo;
+	background-color: #fbeee6;
+}
+.body__parrafos--estilo{
+	font-family: $font-primaria;
+	font-size: 14.5px;
+	color: $font-color;
+	text-align: center;
+	margin: 3px 13px 8px 13px;
+	padding: 8px 13px 8px 13px;
+}
+.seccion__post--tamaño{
+	width: auto;
+	height: 300px;
+	justify-content: center;
+}
+.seccion__post--boton{
+	margin-top: 10px;
+}
+.footer__foto--tamaño{
+	width: $ancho;
+	height: $alto;
+	margin-top: 20px;
+	justify-content: center;
+}
+.logos{
+	width: 20px;
+	height: 20px;
+	color: #eeb2a0;
+}
+.seccion__redes--estilo{
+	font-family: $font-primaria;
+	color: $font-color;
+	text-align: center;
+	margin-top: 25px;
+	padding: 5px;
+}
+.padreLinksRedes div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 15px;
+	padding: 15px;
+}
+.hijoRedes div{
+	flex-basis: auto;
+	color: #2e2e2e;
+}
+.footer__padre div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	font-size: 18px;
+}
+.footer__hijo div{
+	flex-basis: auto;
+}
+/*INDEX*/
+.carousel{
+	margin-top: 15px;
+}
+.inicio__tarjeta--tamaño{
+	width: 250px;
+	height: 400px;
+	margin-top: 10px;
+	margin-right: 20%;
+	top: 30px;
+	text-align: center;
+}
+.card-body {
+  	flex: 1 1 auto;
+ 	min-height: 1px;
+  	padding: $card-spacer-x;
+  	color: $card-color;
+}
+.card-title {
+ 	margin-bottom: $card-spacer-y;
+  	font-family: $font-primaria;
+	color: #7297a6;
+	font-size: 16px;
+}
+.card-subtitle {
+  margin-top: -$card-spacer-y / 2;
+  margin-bottom: 0;
+}
+.card-text{
+  	margin-bottom: 0;
+  	font-family: $font-secundaria;
+	color: $font-color;
+	font-size: 13px;
+}
+.card-link {
+    margin-left: $card-spacer-x;
+    margin-top: 10px;
+}
+/*SOBRE MI / TRABAJOS*/
+.seccion__sobremi--fondo{
+	background: #fff8f3;
+}
+.listaSobreMi{
+	margin: 10px;
+	padding: 10px;
+}
+.itemSobreMi{
+	margin: 5px;
+	padding: 5px;
+}
+.tamañoFotoSobreMi{
+	width: 62%;
+	height: $alto;
+	margin: 40px -10px 40px 70px;
+}
+.table {
+  width: 100%;
+  margin-bottom: $spacer;
+  color: $table-color;
+  background-color: $table-bg;
+  text-align: center;
+  th,
+  td {
+    padding: $table-cell-padding;
+    vertical-align: top;
+    border-top: $table-border-width solid $table-border-color;
+  }
+  thead th {
+    vertical-align: bottom;
+    border-bottom: ($table-border-width * 2) solid $table-border-color;
+    color: #204959;
+  }
+  tbody + tbody {
+    border-top: ($table-border-width * 2) solid $table-border-color;
+  }
+}
+/* SERVICIOS */
+.tamañoFotos{
+	width: 100%;
+	height: auto;
+}
+.tamañoFotoServicios2{
+	margin-top: 55px;
+	@extend .tamañoFotos;
+}
+.tamañoFotoServicios3{
+	margin-top: 60px;
+	@extend .tamañoFotos;
+}
+.tamañoFotoServicios4{
+	@extend .tamañoFotos;
+	margin-top: 80px;
+}
+.tamañoFotoServicios5{
+	@extend .tamañoFotos;
+	margin-top: 20px;
+}
+div .animacionServicios{
+	display: inline-block;
+	transition: 2s;
+}
+.animacionServicios:hover{
+	transform: scale(1.5);
+	background-color: #fbeee6
+}
+.serviciosQuiero{
+	font-family: $font-secundaria;
+	color: $font-color;
+	background-color: #fbeee6;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 5px;
+}
+/*CONTACTOS*/
+.tamañoFotoContactos{
+	width: 100%;
+	height: auto;
+}
+.listaEncontrame{
+	margin-top: 10px;
+}
+form{
+	font-family: 'Quicksand', sans-serif;
+ 	color: #747474;
+ 	text-align: center;
+ 	margin: 3px;
+ 	padding: 5px;
+ 	border: 3px solid;
+ 	border-color: #bb968b;
+ }
+.formulario{
+	margin-bottom: 25px;
+	font-size: 25px;
+	color: #7297a6;
+}
+input .animacionFormulario{
+	transition: all 3s;
+}
+.animacionFormulario:focus{
+	transform: scale(1.5);
+	font-size: 15px;
+}
+/*BLOG*/
+.tamañoFotoBlog{
+	@extend.header__foto--tamaño;
+}
+.listaBlog{
+	margin-top: 40px;
+}
+#padreBlogNombre div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+div .hijoBlogNombre{
+	flex-basis: auto;
+}
+#padreBlogVisual div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+div .hijoBlogVisual{
+	flex-basis: auto;
+}
+#padreBlogPlan div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+div .hijoBlogFeed{
+	flex-basis: auto;
+}
+#padreBlogGif div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+div .hijoBlogGif{
+	flex-basis: auto;
+}
+div .animacionListaBlog{
+	transition: all 1s;
+}
+.animacionListaBlog:hover{
+	transform: scale(1.2);
+}
