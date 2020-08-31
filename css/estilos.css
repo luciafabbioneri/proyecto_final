@@ -189,13 +189,13 @@ a .nav__links--animacion, a .nav__lucia--color {
   .table td {
     padding: 0.75rem;
     vertical-align: top;
-    border-top: 1px solid #cebaaf; }
+    border-top: 1px solid #dabaae; }
   .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #cebaaf;
+    border-bottom: 2px solid #dabaae;
     color: #204959; }
   .table tbody + tbody {
-    border-top: 2px solid #cebaaf; }
+    border-top: 2px solid #dabaae; }
 
 /* SERVICIOS */
 .tamañoFotos, .tamañoFotoServicios2, .tamañoFotoServicios3, .tamañoFotoServicios4, .tamañoFotoServicios5 {
