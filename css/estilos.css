@@ -261,46 +261,22 @@ input .animacionFormulario {
 
 /*BLOG*/
 .listaBlog {
-  margin-top: 40px; }
+  margin-top: 40px;
+  text-decoration: none;
+  color: #dabaae; }
 
-#padreBlogNombre div {
+#padreBlog div {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center; }
 
-div .hijoBlogNombre {
-  flex-basis: auto; }
-
-#padreBlogVisual div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center; }
-
-div .hijoBlogVisual {
-  flex-basis: auto; }
-
-#padreBlogPlan div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center; }
-
-div .hijoBlogFeed {
-  flex-basis: auto; }
-
-#padreBlogGif div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center; }
-
-div .hijoBlogGif {
-  flex-basis: auto; }
+div .hijoBlog {
+  flex-basis: auto;
+  font-size: 15px; }
 
 div .animacionListaBlog {
-  transition: all 1s; }
+  transition: all 1.3s; }
 
 .animacionListaBlog:hover {
-  transform: scale(1.2); }
+  transform: scale(1.1); }
