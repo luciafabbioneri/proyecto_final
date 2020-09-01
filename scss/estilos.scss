@@ -35,6 +35,28 @@ ul{
   width: $ancho;
   height: $alto;
 }
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.mr-auto{
+	margin-right: 0 !important;
+}
+.navbar-collapse{
+	flex-grow: 0;
+}
+.nav__bar--general{
+	background-color: #dabaae;
+	text-align: left;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__links--ubicacion{
+	flex-basis: auto;
+}
 a .nav__links--animacion{
 	display: inline-block;
 	transition: 2s;
@@ -45,7 +67,10 @@ a .nav__links--animacion{
 }
 .nav__lucia--color{
 	@extend.nav__links--animacion;
-	color: #bb968b;
+	color: #ffffff;
+}
+.nav-link{
+	color: #ffffff;
 }
 .main__titulo--estilo{
 	font-family: $font-primaria;
@@ -54,6 +79,7 @@ a .nav__links--animacion{
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .inicio__titulo--color{
 	font-family: $font-primaria;
@@ -135,6 +161,19 @@ a .nav__links--animacion{
 	flex-basis: auto;
 	color: #2e2e2e;
 }
+.links{
+	color: #2e2e2e;
+	text-decoration: none;
+}
+a .seccion__links--animacion{
+	display: inline-block;
+	transition: 1s;
+}
+.seccion__links--animacion:hover{
+	transform: scale(1.2);
+	color: #2e2e2e;
+	text-decoration: none;
+}
 .footer__padre div{
 	display: flex;
 	flex-direction: row;
@@ -145,9 +184,18 @@ a .nav__links--animacion{
 .footer__hijo div{
 	flex-basis: auto;
 }
+.footer__links--color{
+	color: #2e2e2e;
+}
 /*INDEX*/
 .carousel{
 	margin-top: 15px;
+}
+div .inicio__tarjeta--animacion{
+	transition: 1s;
+}
+.inicio__tarjeta--animacion:hover{
+	transform: scale(1.1);
 }
 .inicio__tarjeta--tamaño{
 	width: 250px;
@@ -247,7 +295,7 @@ div .animacionServicios{
 	transition: 2s;
 }
 .animacionServicios:hover{
-	transform: scale(1.5);
+	transform: scale(1.3);
 	background-color: #fbeee6
 }
 .serviciosQuiero{

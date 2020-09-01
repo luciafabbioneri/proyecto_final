@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,27 +16,30 @@
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:ital,wght@1,300&display=swap"
 		rel="stylesheet">
 </head>
+
 <body>
 	<header id="arriba"></header>
-	<nav class="navbar navbar-expand-lg">
-		<a class="navbar-brand nav__lucia--color" href="index.html">LuciaOnline</a>
+	<nav class="navbar navbar-expand-lg nav__bar--general">
+		<div class="navbar-header animated fadeInUp">
+			<a class="navbar-brand nav__lucia--color" href="index.html"><strong>LuciaOnline</strong></a>
+		</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
 			aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
-			<ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-center">
+		<div class="collapse navbar-collapse nav__links--ubicacion" id="navbarTogglerDemo03">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 				<li class="nav-item active">
-					<a class="nav-link nav__links--animacion" href="sobremi.html">Sobre mi </a>
+					<a class="nav-link nav__links--animacion" href="sobremi.html">SOBRE MI </a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link nav__links--animacion" href="servicios.html">Servicios </a>
+					<a class="nav-link nav__links--animacion" href="servicios.html">SERVICIOS </a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link nav__links--animacion" href="contactos.html">Contactos </a>
+					<a class="nav-link nav__links--animacion" href="contactos.html">CONTACTOS </a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link nav__links--animacion" href="blog.html">Blog</a>
+					<a class="nav-link nav__links--animacion" href="blog.html">BLOG</a>
 				</li>
 			</ul>
 		</div>
@@ -76,15 +80,14 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<a href="servicios.html"><img class="d-block w-100" src="multimedia/fotoBlog1.png"
-									alt="First slide"></a>
+							<a href="servicios.html"><img class="d-block w-100 img-thumbnail" src="multimedia/fotoBlog1.png" alt="First slide"></a>
 							<div class="carousel-caption d-none d-md-block">
 								<h5>SERVICIOS</h5>
 								<p>Clickeá para ver los servicios que se ofrecen en LuciaOnline</p>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<a href="contactos.html"><img class="d-block w-100" src="multimedia/fotoContactos.png"
+							<a href="contactos.html"><img class="d-block w-100 img-thumbnail" src="multimedia/fotoContactos.png"
 									alt="Second slide"></a>
 							<div class="carousel-caption d-none d-md-block">
 								<h5>CONTACTOS</h5>
@@ -92,7 +95,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<a href="blog.html"><img class="d-block w-100" src="multimedia/fotoBlog2.png"
+							<a href="blog.html"><img class="d-block w-100 img-thumbnail" src="multimedia/fotoBlog2.png"
 									alt="Third slide"></a>
 							<div class="carousel-caption d-none d-md-block">
 								<h5>BLOG</h5>
@@ -109,7 +112,7 @@
 						<span class="sr-only">Siguiente</span>
 					</a>
 				</div>
-				<div class="card inicio__tarjeta--tamaño">
+				<div class="card inicio__tarjeta--tamaño inicio__tarjeta--animacion">
 					<a href="sobremi.html"><img class="card-img-top" src="multimedia/1.png" alt="Card image"></a>
 					<div class="card-body">
 						<h4 class="card-title">Lucia Fabbioneri</h4>
@@ -118,65 +121,66 @@
 				</div>
 			</div>
 		</div>
-		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 seccion__redes--estilo">
-						<div class="card">
-							<img src="multimedia/engagement.jpg" alt="Que es el engagement"
-								class="seccion__post--tamaño card-img-top">
-							<div class="card-body">
-								<h4 class="card-title">Qué es el engagement</h4>
-								<p class="card-text">~ El engagement es la fidelización que tienen los usuarios con
-									nuestra marca..</p>
-								<a href="https://www.instagram.com/p/CBrJY1fFViA/?utm_source=ig_web_copy_link"
-									class="btn btn-primary stretched-link seccion__post--boton">Leer más</a>
-							</div>
+	</div>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 seccion__redes--estilo">
+					<div class="card">
+						<img src="multimedia/engagement.jpg" alt="Que es el engagement"
+							class="seccion__post--tamaño img-thumbnail">
+						<div class="card-body">
+							<h4 class="card-title">Qué es el engagement</h4>
+							<p class="card-text">~ El engagement es la fidelización que tienen los usuarios con nuestra
+								marca..</p>
+							<a href="https://www.instagram.com/p/CBrJY1fFViA/?utm_source=ig_web_copy_link"
+								class="btn btn-primary stretched-link seccion__post--boton">Leer más</a>
 						</div>
 					</div>
-					<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 seccion__redes--estilo">
-						<div class="card">
-							<img src="multimedia/hashtags.jpg" alt="Hablemos de hashtags"
-								class="seccion__post--tamaño card-img-top">
-							<div class="card-body">
-								<h4 class="card-title">Hablemos de hashtags</h4>
-								<p class="card-text">~ Los hashtags sirven para generar más alcance, pero ojo! Solo si
-									los usamos bien..</p>
-								<a href="https://www.instagram.com/p/CBmBA_KFvkM/?utm_source=ig_web_copy_link"
-									class="btn btn-primary stretched-link seccion__post--boton">Leer más<select name="" id="" disabled="disabled"></select></a>
-							</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 seccion__redes--estilo">
+					<div class="card">
+						<img src="multimedia/hashtags.jpg" alt="Hablemos de hashtags" class="seccion__post--tamaño img-thumbnail">
+						<div class="card-body">
+							<h4 class="card-title">Hablemos de hashtags</h4>
+							<p class="card-text">~ Los hashtags sirven para generar más alcance, pero ojo! Solo si los usamos bien..</p>
+							<a href="https://www.instagram.com/p/CBmBA_KFvkM/?utm_source=ig_web_copy_link"
+								class="btn btn-primary stretched-link seccion__post--boton">Leer más</a>
 						</div>
 					</div>
-					<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 seccion__redes--estilo">
-						<div class="card">
-							<img src="multimedia/feed.png" alt="Tu feed ideal" class="seccion__post--tamaño">
-							<div class="card-body">
-								<h4 class="card-title">Tu feed ideal</h4>
-								<p class="card-text">~ El feed es tu perfil de usuario, es como la vidriera de tu marca
-									online</p>
-								<a href="https://www.instagram.com/p/CBwVtPbhanq/?utm_source=ig_web_copy_link" class="btn btn-primary stretched-link seccion__post--boton">Leer más</a>
-							</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 seccion__redes--estilo">
+					<div class="card">
+						<img src="multimedia/feed.png" alt="Tu feed ideal" class="seccion__post--tamaño img-thumbnail">
+						<div class="card-body">
+							<h4 class="card-title">Tu feed ideal</h4>
+							<p class="card-text">~ El feed es tu perfil de usuario, es como la vidriera de tu marca online</p>
+							<a href="https://www.instagram.com/p/CBwVtPbhanq/?utm_source=ig_web_copy_link"
+								class="btn btn-primary stretched-link seccion__post--boton">Leer más</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<p class="seccion__redes--estilo">SEGUIME EN REDES SOCIALES</p>
-			<div class="padreLinksRedes">
-				<div class="hijoRedes">
-					<a href="https://www.instagram.com/luciaonline_/"><img src="multimedia/instagram.png" alt="instagram" class="logos"> Instagram</a>
-					<a href="https://api.whatsapp.com/send?phone=5493464695685"><img src="multimedia/whatsapp.png" alt="whatsapp" class="logos"> Whatsapp</a>
-					<a href="https://www.facebook.com/LuciaOnline-109420077456158"><img src="multimedia/facebook.png" alt="facebook" class="logos"> Facebook</a>
-					<a href="https://drive.google.com/drive/folders/1M6LMdZA3H6oucuQndunNr4YaMOYah-nI?usp=sharing"><img src="multimedia/gift.png" alt="gift" class="logos"> Gift</a>
-				</div>
-			</div>
-		</section>
-		<div class="footer__padre">
-			<footer>
-				<div class="footer__hijo"><a href="servicios.html">IR ARRIBA</a></div>
-				<div><img src="multimedia/lucia.png" alt="logo" class="footer__foto--tamaño"></div>
-			</footer>
 		</div>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	</section>
+	<section>
+		<p class="seccion__redes--estilo">SEGUIME EN REDES SOCIALES</p>
+		<div class="padreLinksRedes">
+			<div class="hijoRedes">
+				<a href="https://www.instagram.com/luciaonline_/" class="links seccion__links--animacion"><img src="multimedia/instagram.png" alt="instagram" class="logos"> Instagram</a>
+				<a href="https://api.whatsapp.com/send?phone=5493464695685" class="links seccion__links--animacion"><img src="multimedia/whatsapp.png" alt="whatsapp" class="logos"> Whatsapp</a>
+				<a href="https://www.facebook.com/LuciaOnline-109420077456158" class="links seccion__links--animacion"><img src="multimedia/facebook.png" alt="facebook" class="logos"> Facebook</a>
+				<a href="https://drive.google.com/drive/folders/1M6LMdZA3H6oucuQndunNr4YaMOYah-nI?usp=sharing" class="links seccion__links--animacion"><img src="multimedia/gift.png" alt="gift" class="logos"> Gift</a>
+			</div>
+		</div>
+	</section>
+	<footer class="footer__padre">
+		<div class="footer__hijo"><a href="servicios.html" class="footer__links--color">IR ARRIBA</a></div>
+		<div><img src="multimedia/lucia.png" alt="logo" class="footer__foto--tamaño"></div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
