@@ -105,7 +105,7 @@ a .nav__links--animacion, a .nav__lucia--color {
 
 .seccion__post--tamaño {
   width: auto;
-  height: 300px;
+  height: 320px;
   justify-content: center; }
 
 .seccion__post--boton {
@@ -122,11 +122,21 @@ a .nav__links--animacion, a .nav__lucia--color {
   height: 20px;
   color: #eeb2a0; }
 
+.seccion__redes--titulo {
+  font-family: "Quicksand", sans-serif;
+  color: #7297a6;
+  text-align: center;
+  margin-top: 40px;
+  padding: 5px;
+  font-size: 20px;
+  text-shadow: #204959;
+  text-decoration: underline; }
+
 .seccion__redes--estilo {
   font-family: "Quicksand", sans-serif;
   color: #2e2e2e;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 10px;
   padding: 5px; }
 
 .padreLinksRedes div {
@@ -179,10 +189,11 @@ div .inicio__tarjeta--animacion {
   transform: scale(1.1); }
 
 .inicio__tarjeta--tamaño {
-  width: 250px;
-  height: 400px;
+  width: 220px;
+  height: 370px;
   margin-top: 10px;
-  margin-right: 20%;
+  margin-right: -30%;
+  margin-left: 20%;
   top: 30px;
   text-align: center; }
 
