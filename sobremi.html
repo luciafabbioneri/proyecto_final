@@ -16,9 +16,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:ital,wght@1,300&display=swap"
 		rel="stylesheet">
 </head>
-
 <body>
 	<header id="arriba"></header>
+	<div class="header__logos--estilo">
+		<a href="https://www.instagram.com/luciaonline_/"><img src="multimedia/instagram.svg" class="header__logos--tamaño nav__links--animacion" alt="logo-instagram"></a>
+		<a href="https://www.facebook.com/LuciaOnline-109420077456158"><img src="multimedia/facebook.svg" class="header__logos--tamaño nav__links--animacion" alt="logo-facebook"></a>
+		<a href="https://api.whatsapp.com/send?phone=5493464695685"><img src="multimedia/whatsapp.svg" class="header__logos--tamaño nav__links--animacion" alt="logo-whatsapp"></a>
+		<a href="https://mail.google.com/mail/u/3/#inbox"><img src="multimedia/gmail.svg" class="header__logos--tamaño nav__links--animacion" alt="logo-email"></a>
+		<a href="https://drive.google.com/drive/folders/1M6LMdZA3H6oucuQndunNr4YaMOYah-nI?usp=sharing"><img src="multimedia/gift.svg" class="header__logos--tamaño nav__links--animacion" alt="logo-gift"></a>
+	</div>
 	<nav class="navbar navbar-expand-lg nav__bar--general">
 		<a class="navbar-brand nav__lucia--color" href="index.html">LuciaOnline</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
@@ -48,7 +54,7 @@
 			<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 				<img src="multimedia/1.png" alt="fotoRelacionada" class="tamañoFotoSobreMi img-thumbnail">
 			</div>
-			<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 seccion__infogeneral">
 				<h3 class="secciones__titulos--estilo">INFORMACION GENERAL</h3>
 				<ul class="listaSobreMi">
 					<div class="itemSobreMi">
@@ -68,22 +74,14 @@
 		</div>
 	</div>
 	<h3 class="secciones__titulos--estilo">PRESENTACION</h3>
-	<p>
-		<div class="body__parrafos--estilo">Hola! Cómo están?
-		Mi nombre es Lucia, pero la mayoría me dice Lu ..</div>
-		<div class="body__parrafos--estilo">Empecé hace unos años a incursionar en el mundo digital, “manejando” las redes
-		sociales del local de una amiga "de onda".</div>
-		<div class="body__parrafos--estilo">Si bien no tenía un profundo conocimiento de redes sociales, siempre me interesó
-		y llamó la atención lo virtual.</div>
-		<div class="body__parrafos--estilo">De a poco, las personas empezaron a preguntar por mí y tomé varias páginas de
-		distintos rubros. A prueba y error fui aprendiendo.</div>
-		<div class="body__parrafos--estilo">Pasaba el tiempo y a mi me gustaba cada vez más todo este universo, así que
-		arranqué con cursos relacionados. Hoy en día, estoy haciendo una Diplomatura en Community Manager y Marketing
-		Digital y estudiando Desarrollo Web.</div>
-		<div class="body__parrafos--estilo">Pretendo plasmar mis conocimientos en redes y blogs, para que ustedes puedan
-		utilizarlos, llevarlos a cabo, y así potenciar sus marcas. Además brindo mis <a
-			href="servicios.html">servicios</a> si necesitás ayuda o delegar tareas.</div>
-		<div class="body__parrafos--estilo">Quién se suma?</div>
+	<p class="body__parrafos--estilo"> Hola! Cómo están?
+		Mi nombre es Lucia, pero la mayoría me dice Lu .. <br>
+		Empecé hace unos años a incursionar en el mundo digital, “manejando” las redes sociales del local de una amiga "de onda". <br>
+		Si bien no tenía un profundo conocimiento de redes sociales, siempre me interesó y llamó la atención lo virtual. <br>
+		De a poco, las personas empezaron a preguntar por mí y tomé varias páginas de distintos rubros. A prueba y error fui aprendiendo. <br>
+		Pasaba el tiempo y a mi me gustaba cada vez más todo este universo, así que arranqué con cursos relacionados. Hoy en día, estoy finalizando una Diplomatura en Community Manager y Marketing Digital, soy Desarrolladora Web, y continúo estudiando en cursos, como Javacripts y Diseño Gráfico. <br>
+		- Pretendo plasmar mis conocimientos en redes y blogs, para que ustedes puedan utilizarlos, llevarlos a cabo, y así potenciar sus marcas. Además brindo mis <a href="servicios.html">SERVICIOS</a> si necesitás ayuda o delegar tareas.
+		<div class="body__parrafos--estilo"><strong>Quién se suma?</strong></div>
 	</p>
 	<h1 class="main__titulo--estilo">TRABAJOS</h1>
 	<div class="container-fluid">
@@ -135,6 +133,7 @@
 		</table>
 	</div>
 	<section>
+		<a href="contactos.html"><p class="seccion__redes--titulo"><strong>SEGUIME EN REDES SOCIALES</strong></p></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 seccion__redes--estilo">
@@ -179,7 +178,6 @@
 		</div>
 	</section>
 	<section>
-		<p class="seccion__redes--estilo">SEGUIME EN REDES SOCIALES</p>
 		<div class="padreLinksRedes">
 			<div class="hijoRedes">
 				<a href="https://www.instagram.com/luciaonline_/" class="links seccion__links--animacion"><img src="multimedia/instagram.png" alt="instagram" class="logos"> Instagram</a>
@@ -190,7 +188,7 @@
 		</div>
 	</section>
 	<footer class="footer__padre">
-		<div class="footer__hijo"><a href="#arriba" class="footer__links--color">IR ARRIBA</a></div>
+		<div class="footer__hijo"><a href="#arriba" class="footer__links--color irArriba">IR ARRIBA</a></div>
 		<div><img src="multimedia/lucia.png" alt="logo" class="footer__foto--tamaño"></div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -41,6 +41,7 @@ ul{
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: baseline;
+	padding-bottom: 10px;
 }
 .header__logos--tamaño{
 	width: 25px;
@@ -66,12 +67,12 @@ nav{
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
+	font-weight: bold;
 }
 .nav__links--ubicacion{
 	flex-basis: auto;
 }
 a .nav__links--animacion{
-	display: inline-block;
 	transition: 1s;
 }
 .nav__links--animacion:hover{
@@ -143,12 +144,6 @@ a .nav__links--animacion{
 .seccion__post--boton{
 	margin-top: 10px;
 }
-.footer__foto--tamaño{
-	width: $ancho;
-	height: $alto;
-	margin-top: 20px;
-	justify-content: center;
-}
 .logos{
 	width: 20px;
 	height: 20px;
@@ -210,6 +205,21 @@ a .seccion__links--animacion{
 .footer__links--color{
 	color: #2e2e2e;
 }
+div .irArriba{
+	color: #2e2e2e;
+	transition: 1s;
+}
+.irArriba:hover{
+	transform: scale(1.1);
+	font-weight: bold;
+	color: #2e2e2e;
+}
+.footer__foto--tamaño{
+	width: $ancho;
+	height: $alto;
+	margin-top: 20px;
+	justify-content: center;
+}
 /*INDEX*/
 .carousel{
 	margin-top: 15px;
@@ -258,6 +268,9 @@ div .inicio__tarjeta--animacion{
 /*SOBRE MI / TRABAJOS*/
 .seccion__sobremi--fondo{
 	background: #fff8f3;
+}
+.seccion__infogeneral{
+	padding-top: 40px;
 }
 .listaSobreMi{
 	margin: 10px;
@@ -342,7 +355,7 @@ form{
 	font-family: 'Quicksand', sans-serif;
  	color: #747474;
  	text-align: center;
-	margin: 3px;
+	margin-top: 20px;
 	margin-bottom: 20px;
  	padding: 5px;
  	border: 3px solid;
@@ -378,6 +391,7 @@ input .animacionFormulario{
 div .hijoBlog{
 	flex-basis: auto;
 	font-size: 15px;
+	color: #2e2e2e;
 }
 div .animacionListaBlog{
 	transition: all 1.3s;
