@@ -35,6 +35,19 @@ ul{
   width: $ancho;
   height: $alto;
 }
+.header__logos--estilo{
+	background-color: #dabaae;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: baseline;
+}
+.header__logos--tamaño{
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	margin: 20px 10px 0px 10px;
+}
 nav{
 	display: flex;
 	justify-content: space-between;
@@ -59,7 +72,7 @@ nav{
 }
 a .nav__links--animacion{
 	display: inline-block;
-	transition: 2s;
+	transition: 1s;
 }
 .nav__links--animacion:hover{
 	transform: scale(1.2);
@@ -79,11 +92,11 @@ a .nav__links--animacion{
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 .inicio__titulo--color{
 	font-family: $font-primaria;
-	color: #bb968b;
+	color: #dabaae;
 	font-size: 19px;
 	text-align: center;
 	margin: 10px;
