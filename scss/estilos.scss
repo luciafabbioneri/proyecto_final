@@ -3,6 +3,7 @@ $font-primaria: 'Quicksand', sans-serif;
 $font-secundaria: 'Raleway', sans-serif;
 $font-color: #2e2e2e;
 $color-titulos: #7297a6;
+$color-listas: #bb968b;
 $ancho: 100%;
 $alto: auto;
 $table-cell-padding: .75rem !default;
@@ -22,7 +23,7 @@ body{
 ul{
 	list-style-type: circle;
 	list-style-position: outside;
-	color: #bb968b;
+	color: $color-listas;
 	margin-top: 5px;
 	padding-left: -40px;
 
@@ -77,7 +78,7 @@ a .nav__links--animacion{
 }
 .nav__links--animacion:hover{
 	transform: scale(1.2);
-	color: #2e2e2e;
+	color: $font-color;
 }
 .nav__lucia--color{
 	@extend.nav__links--animacion;
@@ -94,6 +95,7 @@ a .nav__links--animacion{
 	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 30px;
+	letter-spacing: 4px;
 }
 .inicio__titulo--color{
 	font-family: $font-primaria;
@@ -137,7 +139,7 @@ a .nav__links--animacion{
 	padding: 8px 13px 8px 13px;
 }
 .seccion__post--tamaño{
-	width: auto;
+	width: 300px;
 	height: 320px;
 	justify-content: center;
 }
@@ -157,7 +159,7 @@ a .nav__links--animacion{
 	padding: 5px;
 	font-size: 20px;
 	text-shadow: #204959;
-	text-decoration: underline;
+	letter-spacing: 4px;
 }
 .seccion__redes--estilo{
 	font-family: $font-primaria;
@@ -177,10 +179,10 @@ a .nav__links--animacion{
 }
 .hijoRedes div{
 	flex-basis: auto;
-	color: #2e2e2e;
+	color: $font-color;
 }
 .links{
-	color: #2e2e2e;
+	color: $font-color;
 	text-decoration: none;
 }
 a .seccion__links--animacion{
@@ -189,7 +191,7 @@ a .seccion__links--animacion{
 }
 .seccion__links--animacion:hover{
 	transform: scale(1.2);
-	color: #2e2e2e;
+	color: $font-color;
 	text-decoration: none;
 }
 .footer__padre div{
@@ -203,16 +205,16 @@ a .seccion__links--animacion{
 	flex-basis: auto;
 }
 .footer__links--color{
-	color: #2e2e2e;
+	color: $font-color;
 }
 div .irArriba{
-	color: #2e2e2e;
+	color: $font-color;
 	transition: 1s;
 }
 .irArriba:hover{
 	transform: scale(1.1);
 	font-weight: bold;
-	color: #2e2e2e;
+	color: $font-color;
 }
 .footer__foto--tamaño{
 	width: $ancho;
@@ -327,21 +329,28 @@ div .inicio__tarjeta--animacion{
 	@extend .tamañoFotos;
 	margin-top: 20px;
 }
-div .animacionServicios{
-	display: inline-block;
+img .servicios__fotos--animacion{
 	transition: 2s;
 }
-.animacionServicios:hover{
-	transform: scale(1.3);
-	background-color: #fbeee6
+.servicios__fotos--animacion:hover{
+	transform: scale(1.1);
 }
 .serviciosQuiero{
 	font-family: $font-secundaria;
-	color: $font-color;
 	background-color: #fbeee6;
 	text-align: center;
 	font-size: 14px;
-	margin-top: 5px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.seccion__servicios--animacion{
+	color: $font-color;
+	transition: 2s;
+}
+.seccion__servicios--animacion:hover{
+	transform: scale(1.2);
+	font-weight: bold;
+	color: $font-color;
 }
 /*CONTACTOS*/
 .tamañoFotoContactos{
@@ -351,6 +360,13 @@ div .animacionServicios{
 .listaEncontrame{
 	margin-top: 10px;
 }
+div .div__encontrame--color{
+	color: $color-listas;
+	text-decoration: none;
+}
+.div__encontrame--color:hover{
+	color: $table-color;
+}
 form{
 	font-family: 'Quicksand', sans-serif;
  	color: #747474;
@@ -359,7 +375,7 @@ form{
 	margin-bottom: 20px;
  	padding: 5px;
  	border: 3px solid;
- 	border-color: #bb968b;
+ 	border-color: $color-listas;
  }
 .formulario{
 	margin-bottom: 25px;
@@ -378,9 +394,11 @@ input .animacionFormulario{
 	@extend.header__foto--tamaño;
 }
 .listaBlog{
-	margin-top: 40px;
+	margin-top: 50px;
 	text-decoration: none;
 	color: #dabaae;
+	text-align: center;
+	list-style-position: inside;
 }
 #padreBlog div{
 	display: flex;
@@ -391,11 +409,13 @@ input .animacionFormulario{
 div .hijoBlog{
 	flex-basis: auto;
 	font-size: 15px;
-	color: #2e2e2e;
+	color: $font-color;
 }
-div .animacionListaBlog{
-	transition: all 1.3s;
+.div__lista--animacion{
+	text-decoration: none;
+	color: $color-listas;
 }
-.animacionListaBlog:hover{
-	transform: scale(1.1);
+.div__lista--animacion:hover{
+	color: $table-color;
+	text-decoration: none;
 }

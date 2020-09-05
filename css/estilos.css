@@ -75,7 +75,8 @@ a .nav__links--animacion, a .nav__lucia--color {
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  letter-spacing: 4px; }
 
 .inicio__titulo--color {
   font-family: "Quicksand", sans-serif;
@@ -118,7 +119,7 @@ a .nav__links--animacion, a .nav__lucia--color {
   padding: 8px 13px 8px 13px; }
 
 .seccion__post--tamaño {
-  width: auto;
+  width: 300px;
   height: 320px;
   justify-content: center; }
 
@@ -138,7 +139,7 @@ a .nav__links--animacion, a .nav__lucia--color {
   padding: 5px;
   font-size: 20px;
   text-shadow: #204959;
-  text-decoration: underline; }
+  letter-spacing: 4px; }
 
 .seccion__redes--estilo {
   font-family: "Quicksand", sans-serif;
@@ -299,21 +300,28 @@ div .inicio__tarjeta--animacion {
 .tamañoFotoServicios5 {
   margin-top: 20px; }
 
-div .animacionServicios {
-  display: inline-block;
+img .servicios__fotos--animacion {
   transition: 2s; }
 
-.animacionServicios:hover {
-  transform: scale(1.3);
-  background-color: #fbeee6; }
+.servicios__fotos--animacion:hover {
+  transform: scale(1.1); }
 
 .serviciosQuiero {
   font-family: "Raleway", sans-serif;
-  color: #2e2e2e;
   background-color: #fbeee6;
   text-align: center;
   font-size: 14px;
-  margin-top: 5px; }
+  margin-top: 15px;
+  font-weight: bold; }
+
+.seccion__servicios--animacion {
+  color: #2e2e2e;
+  transition: 2s; }
+
+.seccion__servicios--animacion:hover {
+  transform: scale(1.2);
+  font-weight: bold;
+  color: #2e2e2e; }
 
 /*CONTACTOS*/
 .tamañoFotoContactos {
@@ -322,6 +330,13 @@ div .animacionServicios {
 
 .listaEncontrame {
   margin-top: 10px; }
+
+div .div__encontrame--color {
+  color: #bb968b;
+  text-decoration: none; }
+
+.div__encontrame--color:hover {
+  color: #747474; }
 
 form {
   font-family: 'Quicksand', sans-serif;
@@ -347,9 +362,11 @@ input .animacionFormulario {
 
 /*BLOG*/
 .listaBlog {
-  margin-top: 40px;
+  margin-top: 50px;
   text-decoration: none;
-  color: #dabaae; }
+  color: #dabaae;
+  text-align: center;
+  list-style-position: inside; }
 
 #padreBlog div {
   display: flex;
@@ -362,8 +379,10 @@ div .hijoBlog {
   font-size: 15px;
   color: #2e2e2e; }
 
-div .animacionListaBlog {
-  transition: all 1.3s; }
+.div__lista--animacion {
+  text-decoration: none;
+  color: #bb968b; }
 
-.animacionListaBlog:hover {
-  transform: scale(1.1); }
+.div__lista--animacion:hover {
+  color: #747474;
+  text-decoration: none; }
