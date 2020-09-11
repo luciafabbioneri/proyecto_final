@@ -45,8 +45,8 @@ ul{
 	padding-bottom: 10px;
 }
 .header__logos--tamaño{
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	text-align: center;
 	margin: 20px 10px 0px 10px;
 }
@@ -85,6 +85,14 @@ a .nav__links--animacion{
 	color: #ffffff;
 }
 .nav-link{
+	color: #ffffff;
+}
+.nav__button--color{
+	color: #ffffff;
+	box-sizing: border-box;
+	size: 40px;
+}
+.navbar-toggler-icon{
 	color: #ffffff;
 }
 .main__titulo--estilo{
@@ -287,6 +295,13 @@ div .inicio__tarjeta--animacion{
 	height: $alto;
 	margin: 40px -10px 40px 70px;
 }
+.seccion__sobremi--color{
+	color: #ffffff;
+	font-size: 15px;
+}
+.jumbotron{
+	background-color: #dabaae;
+}
 .table {
   width: 100%;
   margin-bottom: $spacer;
@@ -365,7 +380,9 @@ div .div__encontrame--color{
 	text-decoration: none;
 }
 .div__encontrame--color:hover{
-	color: $table-color;
+	color: $font-color;
+	text-decoration: none;
+	font-weight: bold;
 }
 form{
 	font-family: 'Quicksand', sans-serif;
@@ -416,6 +433,7 @@ div .hijoBlog{
 	color: $color-listas;
 }
 .div__lista--animacion:hover{
-	color: $table-color;
+	color: $font-color;
 	text-decoration: none;
+	font-weight: bold;
 }
