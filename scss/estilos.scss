@@ -2,7 +2,7 @@ $base-font-size: 14px;
 $font-primaria: 'Quicksand', sans-serif;
 $font-secundaria: 'Raleway', sans-serif;
 $font-color: #2e2e2e;
-$color-titulos: #7297a6;
+$color-titulos: #204959;
 $color-listas: #bb968b;
 $ancho: 100%;
 $alto: auto;
@@ -397,7 +397,7 @@ form{
 .formulario{
 	margin-bottom: 25px;
 	font-size: 25px;
-	color: #7297a6;
+	color: $color-titulos;
 }
 input .animacionFormulario{
 	transition: all 3s;

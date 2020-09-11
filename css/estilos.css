@@ -78,7 +78,7 @@ a .nav__links--animacion, a .nav__lucia--color {
 
 .main__titulo--estilo {
   font-family: "Quicksand", sans-serif;
-  color: #7297a6;
+  color: #204959;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -141,7 +141,7 @@ a .nav__links--animacion, a .nav__lucia--color {
 
 .seccion__redes--titulo {
   font-family: "Quicksand", sans-serif;
-  color: #7297a6;
+  color: #204959;
   text-align: center;
   margin-top: 40px;
   padding: 5px;
@@ -368,7 +368,7 @@ form {
 .formulario {
   margin-bottom: 25px;
   font-size: 25px;
-  color: #7297a6; }
+  color: #204959; }
 
 input .animacionFormulario {
   transition: all 3s; }
