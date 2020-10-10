@@ -2,12 +2,12 @@
 /* GENERAL */
 body {
   font-size: 14px;
-  background-image: linear-gradient(to top, #dabaae, #fff8f3, #ffffff); }
+  background-image: linear-gradient(to top, #d2aaa4, #f6e2d7, #ffffff); }
 
 ul {
   list-style-type: circle;
   list-style-position: outside;
-  color: #bb968b;
+  color: #d2aaa4;
   margin-top: 5px;
   padding-left: -40px; }
   ul li {
@@ -19,7 +19,7 @@ ul {
   height: auto; }
 
 .header__logos--estilo {
-  background-color: #dabaae;
+  background-color: #d2aaa4;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -44,7 +44,7 @@ nav {
   flex-grow: 0; }
 
 .nav__bar--general {
-  background-color: #dabaae;
+  background-color: #d2aaa4;
   text-align: left;
   display: flex;
   flex-flow: row nowrap;
@@ -77,7 +77,8 @@ a .nav__links--animacion, a .nav__lucia--color {
   color: #ffffff; }
 
 .navbar-toggler {
-  border-color: #ffffff; }
+  border-color: #ffffff;
+  border-radius: 2px; }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
@@ -94,7 +95,7 @@ a .nav__links--animacion, a .nav__lucia--color {
 
 .inicio__titulo--color {
   font-family: "Quicksand", sans-serif;
-  color: #dabaae;
+  color: #d2aaa4;
   font-size: 19px;
   text-align: center;
   margin: 10px;
@@ -262,7 +263,7 @@ div .inicio__tarjeta--animacion {
 
 /*SOBRE MI / TRABAJOS*/
 .seccion__sobremi--fondo {
-  background: #fff8f3; }
+  background: #f6e2d7; }
 
 .seccion__infogeneral {
   padding-top: 40px; }
@@ -285,7 +286,7 @@ div .inicio__tarjeta--animacion {
   font-size: 15px; }
 
 .jumbotron {
-  background-color: #dabaae; }
+  background-color: #d2aaa4; }
 
 .table {
   width: 100%;
@@ -296,13 +297,13 @@ div .inicio__tarjeta--animacion {
   .table td {
     padding: 0.75rem;
     vertical-align: top;
-    border-top: 1px solid #dabaae; }
+    border-top: 1px solid #d2aaa4; }
   .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #dabaae;
+    border-bottom: 2px solid #d2aaa4;
     color: #204959; }
   .table tbody + tbody {
-    border-top: 2px solid #dabaae; }
+    border-top: 2px solid #d2aaa4; }
 
 /* SERVICIOS */
 .tamañoFotos, .tamañoFotoServicios2, .tamañoFotoServicios3, .tamañoFotoServicios4, .tamañoFotoServicios5 {
@@ -353,7 +354,7 @@ img .servicios__fotos--animacion {
   margin-top: 10px; }
 
 div .div__encontrame--color {
-  color: #bb968b;
+  color: #d2aaa4;
   text-decoration: none; }
 
 .div__encontrame--color:hover {
@@ -369,7 +370,7 @@ form {
   margin-bottom: 20px;
   padding: 5px;
   border: 3px solid;
-  border-color: #bb968b; }
+  border-color: #d2aaa4; }
 
 .formulario {
   margin-bottom: 25px;
@@ -387,7 +388,7 @@ input .animacionFormulario {
 .listaBlog {
   margin-top: 50px;
   text-decoration: none;
-  color: #dabaae;
+  color: #d2aaa4;
   text-align: center;
   list-style-position: inside; }
 
@@ -404,7 +405,7 @@ div .hijoBlog {
 
 .div__lista--animacion {
   text-decoration: none;
-  color: #bb968b; }
+  color: #d2aaa4; }
 
 .div__lista--animacion:hover {
   color: #2e2e2e;
